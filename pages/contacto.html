@@ -11,7 +11,7 @@
     <header>
         <div class="container-header">
             <div class="logo">
-                <img src="../img/LOGO Globodyne.png">
+                <img src="../img/Logo globodyne.png">
             </div>
             <div>
                 <nav class="container-nav">
@@ -28,28 +28,29 @@
     </header>
     <main>
         <section>
-            <div>
+            <div class="contenedor-formulario">
                 <h1>Contacto</h1>
-                <img src="/img/tecnico en seguridad e higiene.jpg" width="500">
-                <form>
-                    <fieldset>
-                        <legend>Completa tus datos</legend>
-                        <div>
-                            <label for="nombre">Nombre y Apellido:</label>
-                            <input type="text" name="nombre">
-                        </div>
-                        <div><br>
-                            <label for="email">e-mail:</label>
-                            <input type="email" name="email">
-                        </div>
-                        <div><br>
-                            <label for="telefono">Telefono:</label>
-                            <input type="text" name="telefono">
-                        </div>
-                        <br>
-                        <input type="submit" value="Enviar">
-                    </fieldset>
-                </form>
+                <div>
+                    <img src="../img/tecnico en seguridad e higiene.jpg" width="500">
+                </div>
+                <div class="formulario-registro">
+                    <form>
+                        <fieldset>
+                            <legend>Completa tus datos</legend>
+                            <input placeholder="Nombre" type="text" class="input" required="">
+                            <input placeholder="Apellido" type="text" class="input" required="">
+                            <input placeholder="e-mail" type="text" class="input" required="">
+                            <textarea name="mensaje" placeholder="Dejanos tu mensaje aca..." class="textarea"></textarea>
+
+                                <!-- <label for="nombre">Nombre y Apellido:</label>
+                                <input type="text" name="nombre" placeholder="Nombre">
+                                <input type="text" name="apellido" placeholder="Apellido">
+                                <input type="text" name="e-mail" placeholder="Correo electronico">
+                                <textarea name="mensaje" placeholder="Dejanos tu mensaje aca..."></textarea>
+                                <input type="button" value="ENVIAR" class="boton"> -->
+                        </fieldset>
+                    </form>
+                </div>
             </div>
         </section>
     </main>

@@ -47,7 +47,7 @@ header .logo {
 }
 
 .logo img {
-    width: 150px;
+    width: 250px;
 }
 
 .container-nav {
@@ -142,8 +142,17 @@ main {
     height: 200px;
 }
 
+.div-elegirnos {
+    display: flex;
+}
 
+.div-elegirnos-parrafo {
 
+}
+
+.div-elegirnos img {
+    width: 800px;
+}
 
 
 
@@ -227,11 +236,13 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  
+
 }
 
 @media screen and (max-width: 480px) {
-    .container-header {
+
+    
+    /* .container-header {
         width: 100%;
     }
 
@@ -256,12 +267,10 @@ footer {
 
     .div-elegirnos img {
         width: 400px;
-    }
-
-    .container-nav ul li a {
-
-    }
+    } */
 }
+
+
 
 /* division entre css de distintas paginas */
 
@@ -285,9 +294,7 @@ footer {
 }
 
 
-.parrafo-hys {
-    
-}
+
 
 
 .contenedor-construccion {
@@ -319,4 +326,94 @@ footer {
 
 .contenedor-ambiente-funciones {
     display: flex;
+}
+
+
+
+/* division entre css de distintas paginas */
+
+/* .formulario-registro form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.2);
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.formulario-registro input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 15px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+} */
+
+.input {
+    width: 16rem;
+    line-height: 28px;
+    border: 2px solid transparent;
+    border-bottom-color: rgb(119, 119, 119);
+    padding: .2rem 0;
+    outline: none;
+    background-color: transparent;
+    color: rgb(13, 12, 34);
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.input:focus, input:hover {
+    outline: none;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+    border-color: rgb(122, 156, 198);
+}
+
+.input::placeholder {
+    color: rgb(119, 119, 119);
+}
+
+.input:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+
+.textarea {
+    max-width: 500px;
+    max-height: 600px;
+    line-height: 28px;
+    border: 2px solid transparent;
+    border-bottom-color: #777;
+    padding: .2rem 0;
+    outline: none;
+    background-color: transparent;
+    color: rgb(13, 12, 34);
+}
+
+.textarea:focus, textarea:hover {
+    outline: none;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+    border-color: rgb(122, 156, 198);
+}
+
+.textarea::placeholder {
+    color: rgb(119, 119, 119);
+}
+
+.textarea:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+
+.contenedor-cards {
+    display: flex;
+    justify-content: space-around;
 }
