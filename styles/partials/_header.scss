@@ -1,0 +1,78 @@
+/* ESTO ES EL HEADER */
+header {
+    height: 250px;
+    width: 100%;
+    z-index: 100;
+    background-color: rgb(56, 88, 129);
+    
+    .container-header {
+        max-width: 1500px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        padding: 0px 20px;
+
+        .logo {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 250px;
+            }
+        }
+
+        .contenedor-nav {
+
+            .container-nav {
+                position: relative;
+                height: 100%;
+
+                ul {
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    li {
+                        margin: 0px 20px;
+
+                        .select {
+                            padding: 1em 2em;
+                            font-size: 15px;
+                            text-transform: uppercase;
+                            letter-spacing: 2.5px;
+                            font-weight: 600;
+                            color: #000;
+                            background-color: #fff;
+                            border: none;
+                            border-radius: 45px;
+                            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+                            transition: all 0.3s ease 0s;
+                            cursor: pointer;
+                            outline: none;
+
+                            &:hover {
+                                background-color: rgb(8, 22, 62);
+                                box-shadow: 0px 15px 20px rgba(246, 247, 252, 0.7);
+                                color: #fff;
+                            }
+                        }
+
+                        a {
+                            color: rgb(255, 255, 255);
+                            font-size: 14px; 
+                        }
+                    }
+                }    
+            }
+        }
+    }
+}
+
+
+
+
+
