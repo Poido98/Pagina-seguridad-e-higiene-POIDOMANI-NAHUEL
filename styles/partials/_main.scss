@@ -98,46 +98,237 @@ main {
 // MAIN DE SERVICIOS
 .contenedor-seccion-serv {
     display: grid;
-    justify-content: center;
-    max-width: 1200px;
+    max-width: 1300px;
     width: 100%;
-    grid-template-areas: 1;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 50px;
 
     .contenedor-hys {
         border: 1px solid black;
-        height: 500px;
+        height: 600px;
         width: 100%;
-        
-        .img-hys {
-            float: left;
+
+        h2 {
+
         }
 
+        
+        .contenedor-img-parr {
+            display: flex;
+
+            .img-hys {
+            
+                img {
+                    width: 400px;
+                }
+            }
+    
+            .parrafo-hys {
+                border: 1px solid red;
+                width: auto;
+
+                p {
+                    font-size: 18px;
+                }
+
+                ul {
+                    font-size: 18px;
+
+                    li {
+
+                    }
+                }
+            }
+        }
+        
         .contenedor-hys-funciones {
             display: flex;
+            border: 1px solid rgb(43, 0, 255);
+
+            .contenedor {
+                font-size: 18px;
+                border-radius: 5px;
+                box-shadow: 10px 10px 20px -20px;
+                border-top: 3px solid;
+                width: auto;
+                border-top: 3px solid rgb(96, 96, 96);
+                padding: 20px;
+                margin: 20px;
+                background-color: rgb(224, 224, 224);
+                height: auto;
+
+                h3 {
+                    font-size: 23px;
+                }
+            }
         }
     }
 
     .contenedor-construccion {
         border: 1px solid black;
+        height: 600px;
+
+        h2 {
+            
+        }
+
+        .contenedor-img-parr {
+            display: flex;
+            
+            .img-construccion {
+
+                img {
+                    width: 400px;
+                }
+            }
+    
+            .parrafo-construccion {
+                border: 1px solid red;
+
+                p {
+                    font-size: 18px;
+                }
+
+                ul {
+                    font-size: 18px;
+
+                    li {
+
+                    }
+                }
+            }
+        }
+        
 
         .contenedor-construccion-funciones {
-            display: flex;
+            font-size: 18px;
+            border-radius: 5px;
+            box-shadow: 10px 10px 20px -20px;
+            border-top: 3px solid;
+            width: auto;
+            border-top: 3px solid rgb(96, 96, 96);
+            padding: 20px;
+            margin: 20px;
+            background-color: rgb(224, 224, 224);
+            height: auto;
+
+            h3 {
+                font-size: 23px;
+            }
         }
     }
 
     .contenedor-planos {
         border: 1px solid black;
+        height: 600px;
+
+        h2 {
+            
+        }
+
+        .contenedor-img-parr {
+            display: flex;
+            .img-planos {
+
+                img {
+                    width: 400px;
+                }
+            }
+    
+            .parrafo-planos {
+                border: 1px solid red;
+
+                p {
+                    font-size: 18px;
+                }
+
+                ul {
+                    font-size: 18px;
+
+                    li {
+
+                    }
+                }
+            }
+        }
+        
 
         .contenedor-planos-funciones {
             display: flex;
+            border: 1px solid rgb(43, 0, 255);
+            justify-content: space-around;
+
+            h2 {
+            
+            }
+
+            .contenedor {
+                font-size: 18px;
+                border-radius: 5px;
+                box-shadow: 10px 10px 20px -20px;
+                border-top: 3px solid;
+                width: auto;
+                border-top: 3px solid rgb(96, 96, 96);
+                padding: 20px;
+                margin: 20px;
+                background-color: rgb(224, 224, 224);
+                height: auto;
+
+                h3 {
+                    font-size: 23px;
+                }
+            }
         }
     }
 
     .contenedor-ambiente {
         border: 1px solid black;
+        height: 600px;
 
-        .contenedor-ambiente-funciones {
+        .contenedor-img-parr {
             display: flex;
+            .img-ambiente {
+
+                img {
+                    width: 400px;
+                }
+            }
+    
+            .parrafo-ambiente {
+                border: 1px solid red;
+
+                p {
+                    font-size: 18px;
+                }
+
+                ul {
+                    font-size: 18px;
+
+                    li {
+
+                    }
+                }
+            }
+        }
+        
+
+        
+        .contenedor-ambiente-funciones {
+            font-size: 18px;
+            border-radius: 5px;
+            box-shadow: 10px 10px 20px -20px;
+            border-top: 3px solid;
+            width: auto;
+            border-top: 3px solid rgb(96, 96, 96);
+            padding: 20px;
+            margin: 20px;
+            background-color: rgb(224, 224, 224);
+            height: auto;
+
+            h3 {
+                font-size: 23px;
+            }
         }
     }
 }
@@ -176,7 +367,36 @@ main {
 // ACA TERMINA EL MAIN DE QUIENES SOMOS 
 
 // MAIN DE CLIENTES
+.contenedor-clientes {
 
+    h1 {
+
+    }
+
+    .parrafo-clientes {
+
+        p {
+
+        }
+    }
+
+    .contenedor-img {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        align-items: center;
+        width: 100%;
+        max-width: 1200px;
+        
+
+        
+
+        img {
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+        }
+    }
+}
 // ACA TERMINA EL MAIN DE CLIENTES
 
 // MAIN DE CONTACTO
@@ -247,7 +467,6 @@ form.form_contact textarea{
 
     border: none;
 
-    
 	color: #5A5A5A;
 	font-size: 14px;
 	font-weight: 400;

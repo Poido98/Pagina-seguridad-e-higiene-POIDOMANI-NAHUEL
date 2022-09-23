@@ -131,39 +131,158 @@ main .servicios .contenedor-servicios .carta img {
 
 .contenedor-seccion-serv {
   display: grid;
-  justify-content: center;
-  max-width: 1200px;
+  max-width: 1300px;
   width: 100%;
-  grid-template-areas: 1;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 50px;
 }
 .contenedor-seccion-serv .contenedor-hys {
   border: 1px solid black;
-  height: 500px;
+  height: 600px;
   width: 100%;
 }
-.contenedor-seccion-serv .contenedor-hys .img-hys {
-  float: left;
+.contenedor-seccion-serv .contenedor-hys .contenedor-img-parr {
+  display: flex;
+}
+.contenedor-seccion-serv .contenedor-hys .contenedor-img-parr .img-hys img {
+  width: 400px;
+}
+.contenedor-seccion-serv .contenedor-hys .contenedor-img-parr .parrafo-hys {
+  border: 1px solid red;
+  width: auto;
+}
+.contenedor-seccion-serv .contenedor-hys .contenedor-img-parr .parrafo-hys p {
+  font-size: 18px;
+}
+.contenedor-seccion-serv .contenedor-hys .contenedor-img-parr .parrafo-hys ul {
+  font-size: 18px;
 }
 .contenedor-seccion-serv .contenedor-hys .contenedor-hys-funciones {
   display: flex;
+  border: 1px solid rgb(43, 0, 255);
+}
+.contenedor-seccion-serv .contenedor-hys .contenedor-hys-funciones .contenedor {
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px -20px;
+  border-top: 3px solid;
+  width: auto;
+  border-top: 3px solid rgb(96, 96, 96);
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(224, 224, 224);
+  height: auto;
+}
+.contenedor-seccion-serv .contenedor-hys .contenedor-hys-funciones .contenedor h3 {
+  font-size: 23px;
 }
 .contenedor-seccion-serv .contenedor-construccion {
   border: 1px solid black;
+  height: 600px;
+}
+.contenedor-seccion-serv .contenedor-construccion .contenedor-img-parr {
+  display: flex;
+}
+.contenedor-seccion-serv .contenedor-construccion .contenedor-img-parr .img-construccion img {
+  width: 400px;
+}
+.contenedor-seccion-serv .contenedor-construccion .contenedor-img-parr .parrafo-construccion {
+  border: 1px solid red;
+}
+.contenedor-seccion-serv .contenedor-construccion .contenedor-img-parr .parrafo-construccion p {
+  font-size: 18px;
+}
+.contenedor-seccion-serv .contenedor-construccion .contenedor-img-parr .parrafo-construccion ul {
+  font-size: 18px;
 }
 .contenedor-seccion-serv .contenedor-construccion .contenedor-construccion-funciones {
-  display: flex;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px -20px;
+  border-top: 3px solid;
+  width: auto;
+  border-top: 3px solid rgb(96, 96, 96);
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(224, 224, 224);
+  height: auto;
+}
+.contenedor-seccion-serv .contenedor-construccion .contenedor-construccion-funciones h3 {
+  font-size: 23px;
 }
 .contenedor-seccion-serv .contenedor-planos {
   border: 1px solid black;
+  height: 600px;
+}
+.contenedor-seccion-serv .contenedor-planos .contenedor-img-parr {
+  display: flex;
+}
+.contenedor-seccion-serv .contenedor-planos .contenedor-img-parr .img-planos img {
+  width: 400px;
+}
+.contenedor-seccion-serv .contenedor-planos .contenedor-img-parr .parrafo-planos {
+  border: 1px solid red;
+}
+.contenedor-seccion-serv .contenedor-planos .contenedor-img-parr .parrafo-planos p {
+  font-size: 18px;
+}
+.contenedor-seccion-serv .contenedor-planos .contenedor-img-parr .parrafo-planos ul {
+  font-size: 18px;
 }
 .contenedor-seccion-serv .contenedor-planos .contenedor-planos-funciones {
   display: flex;
+  border: 1px solid rgb(43, 0, 255);
+  justify-content: space-around;
+}
+.contenedor-seccion-serv .contenedor-planos .contenedor-planos-funciones .contenedor {
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px -20px;
+  border-top: 3px solid;
+  width: auto;
+  border-top: 3px solid rgb(96, 96, 96);
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(224, 224, 224);
+  height: auto;
+}
+.contenedor-seccion-serv .contenedor-planos .contenedor-planos-funciones .contenedor h3 {
+  font-size: 23px;
 }
 .contenedor-seccion-serv .contenedor-ambiente {
   border: 1px solid black;
+  height: 600px;
+}
+.contenedor-seccion-serv .contenedor-ambiente .contenedor-img-parr {
+  display: flex;
+}
+.contenedor-seccion-serv .contenedor-ambiente .contenedor-img-parr .img-ambiente img {
+  width: 400px;
+}
+.contenedor-seccion-serv .contenedor-ambiente .contenedor-img-parr .parrafo-ambiente {
+  border: 1px solid red;
+}
+.contenedor-seccion-serv .contenedor-ambiente .contenedor-img-parr .parrafo-ambiente p {
+  font-size: 18px;
+}
+.contenedor-seccion-serv .contenedor-ambiente .contenedor-img-parr .parrafo-ambiente ul {
+  font-size: 18px;
 }
 .contenedor-seccion-serv .contenedor-ambiente .contenedor-ambiente-funciones {
-  display: flex;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px -20px;
+  border-top: 3px solid;
+  width: auto;
+  border-top: 3px solid rgb(96, 96, 96);
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(224, 224, 224);
+  height: auto;
+}
+.contenedor-seccion-serv .contenedor-ambiente .contenedor-ambiente-funciones h3 {
+  font-size: 23px;
 }
 
 .quienes-somos {
@@ -189,6 +308,19 @@ main .servicios .contenedor-servicios .carta img {
   height: 300px;
   border-radius: 30px;
   margin-bottom: 20px;
+}
+
+.contenedor-clientes .contenedor-img {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+.contenedor-clientes .contenedor-img img {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
 }
 
 .contacto .titulo-contacto {
