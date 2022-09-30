@@ -35,60 +35,60 @@ main {
             }
         }
     }
-}
 
-.valores {
+    .valores {
     
-    .container-valores {
-
-        .div-valores {
-            display: flex;
-            justify-content: space-around;
-            margin: 10px;
-            padding: 50px;
-
-            .valor-uno-div {
-                @extend %valores-cards;
-
-                .calidad-contenido {
-                    @include cards-contenido;
+        .container-valores {
+    
+            .div-valores {
+                display: flex;
+                justify-content: space-around;
+                margin: 10px;
+                padding: 50px;
+    
+                .valor-uno-div {
+                    @extend %valores-cards;
+    
+                    .calidad-contenido {
+                        @include cards-contenido;
+                    }
                 }
-            }
-
-            .valor-dos-div {
-                @extend %valores-cards;
-
-                .innovacion-contenido {
-                    @include cards-contenido;
+    
+                .valor-dos-div {
+                    @extend %valores-cards;
+    
+                    .innovacion-contenido {
+                        @include cards-contenido;
+                    }
                 }
-            }
-
-            .valor-tres-div {
-                @extend %valores-cards;
-
-                .atencion-contenido {
-                    @include cards-contenido
+    
+                .valor-tres-div {
+                    @extend %valores-cards;
+    
+                    .atencion-contenido {
+                        @include cards-contenido
+                    }
                 }
             }
         }
     }
-}
+    
+    .elegirnos {
+    
+        .div-elegirnos {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            height: auto;
+            flex-wrap: nowrap;
+            justify-content: center;
+            margin: auto;
 
-.elegirnos {
-
-    .div-elegirnos {
-        display: flex;
-        width: 100%;
-        max-width: 1200px;
-        height: auto;
-        flex-wrap: nowrap;
-        justify-content: center;
-        margin: auto;
-
-        .elegirnos-img {
-
-            img {
-                width: 600px;
+            .elegirnos-img {
+    
+                img {
+                    width: 600px;
+                }
             }
         }
     }
@@ -102,12 +102,12 @@ main {
     width: 100%;
     justify-content: center;
     margin: auto;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 
     .contenedor-hys {
-        border: 1px solid black;
         height: 600px;
         width: 100%;
+        margin-top: 30px;
 
         h2 {
 
@@ -118,14 +118,14 @@ main {
             display: flex;
 
             .img-hys {
-            
+                margin-right: 20px;
+
                 img {
                     width: 400px;
                 }
             }
     
             .parrafo-hys {
-                border: 1px solid red;
                 width: auto;
 
                 p {
@@ -144,7 +144,6 @@ main {
         
         .contenedor-hys-funciones {
             display: flex;
-            border: 1px solid rgb(43, 0, 255);
 
             .contenedor {
                 font-size: 18px;
@@ -166,7 +165,6 @@ main {
     }
 
     .contenedor-construccion {
-        border: 1px solid black;
         height: 600px;
 
         h2 {
@@ -177,6 +175,7 @@ main {
             display: flex;
             
             .img-construccion {
+                margin-right: 20px;
 
                 img {
                     width: 400px;
@@ -184,7 +183,6 @@ main {
             }
     
             .parrafo-construccion {
-                border: 1px solid red;
 
                 p {
                     font-size: 18px;
@@ -220,7 +218,6 @@ main {
     }
 
     .contenedor-planos {
-        border: 1px solid black;
         height: 600px;
 
         h2 {
@@ -229,7 +226,9 @@ main {
 
         .contenedor-img-parr {
             display: flex;
+
             .img-planos {
+                margin-right: 20px;
 
                 img {
                     width: 400px;
@@ -237,7 +236,6 @@ main {
             }
     
             .parrafo-planos {
-                border: 1px solid red;
 
                 p {
                     font-size: 18px;
@@ -256,7 +254,6 @@ main {
 
         .contenedor-planos-funciones {
             display: flex;
-            border: 1px solid rgb(43, 0, 255);
             justify-content: space-around;
 
             h2 {
@@ -283,20 +280,20 @@ main {
     }
 
     .contenedor-ambiente {
-        border: 1px solid black;
         height: 600px;
 
         .contenedor-img-parr {
             display: flex;
-            .img-ambiente {
 
+            .img-ambiente {
+                margin-right: 20px;
+                
                 img {
                     width: 400px;
                 }
             }
     
             .parrafo-ambiente {
-                border: 1px solid red;
 
                 p {
                     font-size: 18px;
@@ -311,9 +308,7 @@ main {
                 }
             }
         }
-        
 
-        
         .contenedor-ambiente-funciones {
             font-size: 18px;
             border-radius: 5px;
@@ -475,7 +470,7 @@ form.form_contact textarea{
 form.form_contact input[type="button"]{
     width: 180px;
 	background: #4091EC;
-	padding: 20px;
+	padding: 20px 20px 40px;
 	border: none;
 	border-radius: 25px;
 
